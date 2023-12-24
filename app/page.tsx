@@ -43,7 +43,7 @@ export default function Home() {
   );
 }
 
-const Pokemon = ({ data }: { data: PokemonDetails }) => {
+const Pokemon = ({ data }: { data: Dating }) => {
   const [details, setDetails] = useState<PokemonDetails | null>(null);
 
   useEffect(() => {
